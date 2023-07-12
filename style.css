@@ -1,0 +1,65 @@
+body{
+    background-image: url(./images/guess.png);
+    background-size: 100vw;
+}
+.logo{
+    text-align: center;
+    justify-content: center;
+    font-size: 8em;
+    color: red;
+    text-shadow: -3px -3px 0 black;
+
+}
+.button{
+    background-color: orangered;
+    margin-left: 550px;
+    text-align: center;
+    align-content: center;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 10px 15px;
+    font-weight: 800;
+
+}
+input{
+    width: 250px;
+    height: 35px;
+    margin-left: 500px;
+}
+#input-container{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#message{
+    display: none;
+    color:red;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    align-items: center;
+}
+.won{
+    justify-content: center;
+}
+.win{
+    font-size: 100px;
+    color: darkblue;
+}
+.loss{
+    justify-content: center;
+    
+}
+.lose{
+    font-size: 100px;
+    color: blueviolet;
+}
+h3{
+    justify-content: center;
+    text-align: center;
+    color:green;
+    font-size: xx-large;
+}
